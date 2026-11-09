@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+gui_ustawienia.json
+
+# Node.js / aplikacja webowa
+node_modules/
+python/web/dist/
+
+# React Native / Expo
+# (tylko foldery generowane przez "npx expo prebuild" / "npx expo run:android";
+#  folder modules/robot-audio/android z kodem modułu natywnego MUSI trafić do repozytorium)
+.expo/
+react/robot-app/android/
+react/robot-app/ios/
+*.apk
+*.aab
+
+# Arduino i wyniki kompilacji
+build/
+
+# System i edytory
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
